@@ -1,3 +1,5 @@
+/*Style for all*/
+
 html {
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
@@ -17,6 +19,8 @@ body {
   box-sizing: border-box;
 }
 
+/*Definicion of one sections*/
+
 section {
   min-height: 100vh;
   width: 100%;
@@ -24,6 +28,9 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+/*Style of sections*/
+
 #sec-1 {
   background-color: #282828;
   justify-content: center;
@@ -31,6 +38,8 @@ section {
 #sec-2 {
   background-color: #282828;
 }
+
+/*Linked button to second part*/
 
 #scroll {
   display: flex;
@@ -83,6 +92,8 @@ section {
   }
 }
 
+/*Style of link cards with scale*/
+
 .card {
   height: 450px;
   width: 400px;
@@ -119,9 +130,13 @@ section {
   text-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
 
+/*Containers*/
+
 .container {
   flex-direction: row;
 }
+
+/*Main title*/
 
 #title {
   position: relative;
@@ -134,6 +149,8 @@ section {
   color: #427B58;
 }
 
+/*Under main title*/
+
 #about-title {
   position: relative; 
   font-weight: 500;
@@ -145,6 +162,8 @@ section {
   color: #F2E5BC;
 }
 
+/*"About us" title*/
+
 #title-about {
   position: relative;
   font-weight: 500;
@@ -155,6 +174,8 @@ section {
 
   color: #427B58;
 }
+
+/*Under second title "About us"*/
 
 #about-us {
   position: relative; 
@@ -168,6 +189,8 @@ section {
   color: #F2E5BC;
 }
 
+/*Main container on second part*/
+
 #show-off {
   position: relative;
   min-height: 100vh;
@@ -177,6 +200,8 @@ section {
   justify-content: space-around;
 }
 
+/*Under container*/
+
 #example {
   position: relative;
   display: flex;
@@ -184,12 +209,14 @@ section {
   justify-content: space-evenly;
 }
 
+/*Continer for linked image*/
+
 #about-image {
   position: relative;
   display: flex;
-  
- 
 }
+
+/*Continer for linked image1*/
 
 #about-image1 {
   position: relative;
